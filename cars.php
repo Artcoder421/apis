@@ -32,7 +32,7 @@ switch ($action) {
 }
 
 function getCars($conn, $filter) {
-    $baseUrl = "http://192.168.1.154/CAR_RENTAL_API/uploads/";
+    $baseUrl = "http://10.132.90.254/CAR_RENTAL_API/uploads/";
 
     $query = "SELECT * FROM cars";
 
